@@ -67,5 +67,4 @@ jupyter lab
 
 Відкрити `part1_vhi.ipynb` або `part2_power.ipynb` у браузері.
 
-> **Примітка:** файл `data/household_power_consumption.txt` (~500 MB) не включено до репозиторію.  
-> Завантажити вручну: [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) → розпакувати в папку `data/`.
+> Датасет завантажується автоматично при першому запуску `part2_power.ipynb`
