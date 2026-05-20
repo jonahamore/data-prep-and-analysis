@@ -1,4 +1,4 @@
-# Лабораторна робота №3 — Візуалізація даних
+# Лабораторна робота №3 - Візуалізація даних
 
 ## Опис завдання
 
@@ -10,18 +10,18 @@
 
 ## Датасет
 
-**Auto MPG** — характеристики автомобілів (398 записів, 9 атрибутів)  
-Джерело: [UCI ML Repository — Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+**Auto MPG** - характеристики автомобілів (398 записів, 9 атрибутів)  
+Джерело: [UCI ML Repository - Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
 
 Датасет завантажується автоматично при першому запуску ноутбука з UCI ML Repository.
 
 ## Структура файлів
 
 ```
-lab_03/
-├── lab3_visualization.ipynb   # Jupyter Notebook з аналізом та графіками
-├── requirements.txt           # Залежності Python
-└── README.md                  # Цей файл
+lab-3/
+├── lab3.ipynb         # Jupyter Notebook з аналізом та графіками
+├── requirements.txt   # залежності Python
+└── README.md          # цей файл
 ```
 
 ## Інструкція із запуску
@@ -30,6 +30,20 @@ lab_03/
 
 - Python **3.9+**
 - pip
+
+### Створення та активація віртуального середовища
+
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**macOS / Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ### Встановлення залежностей
 
@@ -40,7 +54,5 @@ pip install -r requirements.txt
 ### Запуск
 
 ```bash
-jupyter notebook lab3_visualization.ipynb
+jupyter notebook lab3.ipynb
 ```
-
-Запустити всі клітинки: **Kernel → Restart & Run All**
