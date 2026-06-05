@@ -11,7 +11,6 @@ __pycache__/
 
 # Data files
 data/
-lab-5/vhi_data/
 
 # OS
 .DS_Store
